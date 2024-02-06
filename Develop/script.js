@@ -1,6 +1,7 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
+var currentDayEl = $('#currentDay');
 $(function() {
     // Document ready function ensures the code runs after the DOM is fully loaded
     
@@ -13,6 +14,14 @@ $(function() {
     // Load stored events from local storage
     loadStoredEvents();
     
+
+    // add the time diaplay
+
+    function showTodaysDate(){
+        var currentDate = dayjs().format('MMM DD, YYYY [at] hh:mm:ss a')
+        currentDayEl.text(currentDate);
+
+    }
     // Add a listener for click events on the save button
     $('.saveBtn').on('click', function() {
     var timeblockId = $(this).closest('.time-block').attr('id');
@@ -36,7 +45,9 @@ $(function() {
     
     if (storedEvent) {
     timeblock.find('.description').val(storedEvent);
+    
     }
 }
 }
-    
+
+
