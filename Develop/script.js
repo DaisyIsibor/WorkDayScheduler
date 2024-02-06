@@ -5,20 +5,20 @@ var currentDayEl = $('#currentDay');
 $(function() {
     // Document ready function ensures the code runs after the DOM is fully loaded
     
-    // Show today's date
+    // Show today's date/ call function 
     showTodaysDate();
     
-    // Generate time blocks
+    // Generate time blocks/ call function
     generateTimeBlocks();
     
     // Load stored events from local storage
     loadStoredEvents();
     
 
-    // add the time diaplay
+    //add function for showtodaysdate
 
     function showTodaysDate(){
-        var currentDate = dayjs().format('MMM DD, YYYY [at] hh:mm:ss a')
+        var currentDate = dayjs('2024-02-05').format('dddd,MMMM D[th]')
         currentDayEl.text(currentDate);
 
     }
@@ -32,11 +32,13 @@ $(function() {
     )
 }
 );
-    
+    // function to save to local storage 
     function saveEventToLocalStorage(timeblockId, userInput) {
     localStorage.setItem(timeblockId, userInput);
     }
     
+
+    // function to load stored event on the input box to local storage
     function loadStoredEvents() {
     for (var i = 9; i <= 17; i++) {
     var timeblockId = 'hour-' + i;
