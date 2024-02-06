@@ -1,10 +1,31 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Your Task
+## Task
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This is to Work day scheduler has a time time from 9am to 5pm and each time blocks represent ifnthis past present,future and lunch 
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+The past: Grey color box
+The present: Yellow color Box 
+The Future : The Green color box 
+The Lunch : the Blue color box 
+
+
+Above displays the time, date and month
+
+
+This scheduler saves on local storage when events or information are inputed.
+
+
+
+
+
+![alt text](image.png)
+
+
+
+
+
+
 
 ## User Story
 
