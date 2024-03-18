@@ -7,13 +7,17 @@ This is to Work day scheduler has a time time from 9am to 5pm and each time bloc
 The past: Grey color box
 The present: Yellow color Box 
 The Future : The Green color box 
-The Lunch : the Blue color box 
+
 
 
 Above displays the time, date and month
 
 
-This scheduler saves on local storage when events or information are inputed.
+This scheduler saves on local storage when events or information are inputed and when the age is refereshed the inputed information still remains. 
+
+It can be cleared my just clearing event and save and when refreshed, the inputed item will be removed from the scheduler. 
+
+
 
 
 
@@ -54,9 +58,6 @@ THEN the saved events persist
 ```
 
 The following animation demonstrates the application functionality:
-
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
 ## Grading Requirements
 
