@@ -11,7 +11,7 @@ $(function() {
     showTodaysDate();
     
     // Generate time blocks/ call function
-    generateTimeBlocks();
+    //generateTimeBlocks();
     
     // Load stored events from local storage
     loadStoredEvents();
