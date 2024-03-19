@@ -1,6 +1,6 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-##Deployed site 
+
 
 https://daisyisibor.github.io/WorkDayScheduler/
 
