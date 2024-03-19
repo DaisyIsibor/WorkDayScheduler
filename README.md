@@ -1,5 +1,9 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
+##Deployed site 
+
+https://daisyisibor.github.io/WorkDayScheduler/
+
 ## Task
 
 This is to Work day scheduler has a time time from 9am to 5pm and each time blocks represent ifnthis past present,future and lunch 
