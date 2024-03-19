@@ -2,7 +2,6 @@
 // the code isn't run until the browser has finished rendering all the elements
 
 
-
 $(function() {
     // Document ready function ensures the code runs after the DOM is fully loaded
     
@@ -23,10 +22,10 @@ $(function() {
         currentDayEl.text(currentDate);
     }
 
-    // Function to generate time blocks
-    function generateTimeBlocks() {
-        // Your code for generating time blocks goes here
-    }
+    // // Function to generate time blocks/  won't be using this as HTML already have the structure
+    // function generateTimeBlocks() {
+        
+    // }
 
     // Add a listener for click events on the save button
     $('.saveBtn').on('click', function() {
